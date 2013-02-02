@@ -26,6 +26,6 @@ currentdir() {
 
 
 PROMPT='
-$(username)$(currentdir) »%b '
+$(username)$(currentdir) ▶%b '
 
 RPROMPT='$(git_prompt_status) $(git_prompt_info)'
